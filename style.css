@@ -181,10 +181,11 @@ h3 {
 
     #gallery-button {
         padding: 10px 0;
+        width: 39%;
     }
 
     #gallery-button h3 {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     #map {
