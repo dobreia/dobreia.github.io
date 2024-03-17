@@ -71,6 +71,10 @@ h3 {
     font-size: 28px;
 }
 
+#contact {
+    margin-bottom: 50px;
+}
+
 #contact h2 {
     margin: 130px 0 -20px 0;
     text-align: center;
@@ -143,7 +147,13 @@ h3 {
 }
 
 @media (max-width: 768px) {
+    #nav-logo {
+        width: 125px;
+    }
+
+
     #main-text {
+        margin-top: 90px;
         text-align: center;
         font-size: 75px;
     }
@@ -151,6 +161,10 @@ h3 {
     #second-text {
         text-align: center;
         font-size: 45px;
+    }
+
+    #landing-img {
+        margin-top: 100px;
     }
 
     #gallery-button {
@@ -212,4 +226,5 @@ h3 {
     #main-text {
         font-size: 53px;
     }
+
 }
