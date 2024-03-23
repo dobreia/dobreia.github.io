@@ -79,7 +79,8 @@ p {
     }
 
     .card-course ul,
-    .card-course p {
+    .card-course p,
+    .card-title {
         font-size: 16px;
     }
 
@@ -96,5 +97,15 @@ p {
     .card-course.right {
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .wrapper {
+        width: 95%;
+    }
+
+    .card-course ul,
+    .card-course p,
+    .card-title {
+        font-size: 14px;
     }
 }
