@@ -7,21 +7,6 @@ body {
     background-color: #AFB9BB;
 }
 
-.navbar-toggler {
-    padding: 0;
-    margin: 0;
-    border: none;
-}
-
-.navbar-toggler-icon {
-    width: 40px;
-    height: auto;
-}
-
-.logo {
-    width: 200px;
-}
-
 .active {
     background-color: #2A6372;
     color: #FFF5DB !important;
