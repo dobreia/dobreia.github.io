@@ -1,0 +1,39 @@
+body {
+    background-color: #FFF5DB;
+    font-family: Urbanist, sans-serif;
+}
+
+.navbar {
+    background-color: #AFB9BB;
+}
+
+.active {
+    background-color: #2A6372;
+    color: #FFF5DB !important;
+    border-radius: 50px;
+    transition: all ease 1ms;
+}
+
+.nav-link {
+    padding: 10px 15px 10px 15px !important;
+    margin: 0 5px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #2A6372;
+    transition: all ease 1ms;
+
+}
+
+.nav-link:hover {
+    background-color: #2A6372;
+    color: #FFF5DB;
+    border-radius: 50px;
+    transition: all ease 1ms;
+}
+
+@media (min-width:992px) {
+    #navbarNav {
+        display: flex;
+        justify-content: end;
+    }
+}
