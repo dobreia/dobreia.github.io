@@ -67,11 +67,19 @@ body {
         justify-content: end;
     }
 
+    .theme.big {
+        display: none;
+    }
+
 
 }
 
 @media (max-width:992px) {
     .theme {
         margin-right: 5px;
+    }
+
+    .theme.small {
+        display: none;
     }
 }
