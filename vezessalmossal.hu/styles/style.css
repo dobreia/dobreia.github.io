@@ -61,6 +61,14 @@ body {
     filter: drop-shadow(0 0 10px #518795);
 }
 
+.button {
+    background-color: #FFFBF1;
+    border-radius: 50px;
+    box-shadow: 0 0 10px 2px #B3AC99;
+    /* #000 30%*/
+    padding: 20px;
+}
+
 @media (min-width:992px) {
     #navbarNav {
         display: flex;
@@ -82,4 +90,6 @@ body {
     .theme.small {
         display: none;
     }
+
+
 }
