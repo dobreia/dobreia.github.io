@@ -183,7 +183,6 @@ main a {
     }
 
     #_3 {
-        position: absolute;
         top: 590px;
         left: 0;
         right: 0;
@@ -196,8 +195,74 @@ main a {
     }
 
     #_5 {
-        position: absolute;
         top: 860px;
         right: 66%;
+    }
+}
+
+@media (max-width: 768px) {
+    #bubbles #main {
+        width: 240px;
+        height: 240px;
+    }
+
+    #_1 {
+        left: 71%;
+    }
+
+    #_2 {
+        left: 64%;
+    }
+
+    #_4 {
+        right: 64%;
+    }
+
+    #_5 {
+        right: 71%;
+    }
+}
+
+@media (max-width: 576px) {
+    main h1 {
+        font-size: 48px;
+        width: 100%;
+        margin-bottom: 3px;
+    }
+
+    h2 {
+        width: 100% !important;
+        font-size: 26px !important;
+    }
+
+    .button {
+        width: 100%;
+        padding: 10px 14px;
+
+    }
+
+    .button h2{
+        font-size: 22px !important;
+    }
+
+    #bubbles #main {
+        width: 240px;
+        height: 240px;
+    }
+
+    #_1 {
+        left: 71%;
+    }
+
+    #_2 {
+        left: 64%;
+    }
+
+    #_4 {
+        right: 64%;
+    }
+
+    #_5 {
+        right: 71%;
     }
 }
