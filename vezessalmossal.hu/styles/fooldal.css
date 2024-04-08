@@ -105,3 +105,99 @@ main a {
     bottom: 30px;
 
 }
+
+@media (max-width: 1400px) {
+    .button {
+        margin-left: 240px;
+    }
+}
+
+@media (max-width: 1200px) {
+    main h1 {
+        width: 492px;
+    }
+
+    main h2 {
+        width: 480px;
+    }
+
+    .button {
+        margin-left: 112px;
+    }
+
+    #bubbles #main {
+        right: 55px;
+    }
+
+    #_1,
+    #_5 {
+        right: 35px;
+    }
+
+
+    #_2,
+    #_4 {
+        right: 235px;
+    }
+
+    #_3 {
+        right: 315px;
+    }
+}
+
+@media (max-width: 992px) {
+    main h1 {
+        margin: 50px auto 0 auto;
+        text-align: center;
+    }
+
+    main h2 {
+        width: 492px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: justify;
+    }
+
+    .button {
+        margin: 40px auto 0 auto;
+    }
+
+    #bubbles #main {
+        top: 762px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+
+    #_1 {
+        top: 860px;
+        left: 66%;
+    }
+
+
+
+    #_2 {
+        top: 673px;
+        left: 61%;
+    }
+
+    #_3 {
+        position: absolute;
+        top: 590px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    #_4 {
+        top: 673px;
+        right: 61%;
+    }
+
+    #_5 {
+        position: absolute;
+        top: 860px;
+        right: 66%;
+    }
+}
