@@ -3,6 +3,11 @@ h2 {
     color: #2A6372;
 }
 
+main {
+    position: relative;
+
+}
+
 main h1 {
     margin-top: 150px;
     font-size: 70px;
@@ -261,7 +266,7 @@ main a {
     }
 
     #bubbles #main {
-        top: 524px;
+        top: 414px;
         width: 162px;
         height: 162px;
         padding: 40px 0 0 0;
@@ -269,31 +274,31 @@ main a {
 
 
     #_1 {
-        top: 600px;
+        top: 490px;
         left: 71%;
         padding: 20px 0 0 5px !important;
     }
 
     #_2 {
-        top: 480px;
+        top: 370px;
         left: 64%;
         padding: 15px 0 0 5px !important;
     }
 
     #_3 {
         padding: 20px 0 0 5px !important;
-        top: 430px;
+        top: 310px;
     }
 
     #_4 {
-        top: 480px;
+        top: 370px;
         right: 64%;
         padding: 25px 0 0 5px !important;
     }
 
     #_5 {
-        top: 600px;
+        top: 490px;
         right: 71%;
-        padding: 25px 0 0 5px !important; 
+        padding: 25px 0 0 5px !important;
     }
 }
