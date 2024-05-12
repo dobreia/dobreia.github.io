@@ -35,6 +35,7 @@ p {
     color: white;
     font-size: 20px;
     text-align: justify;
+    filter: drop-shadow(0 0 1px black);
 }
 
 #img {
