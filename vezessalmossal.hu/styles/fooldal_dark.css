@@ -1,8 +1,21 @@
-h1,
-h2 {
-    color: #2A6372;
+body {
+    background-color: #385D67;
 }
 
+.navbar {
+    background-color: #000;
+    color: #4A9BB1;
+}
+
+.nav-link {
+    text-shadow: -1px 1px 20px #b8b8b8
+}
+
+h1,
+h2,
+p {
+    color: white;
+}
 
 
 main h1 {
@@ -37,27 +50,26 @@ main a {
     margin-left: 380px;
     padding: 18px 20px;
     width: 460px;
-    background-color: #FFFBF1;
+    background-color: #637276;
     border-radius: 50px;
-    box-shadow: 0 0 10px 2px #B3AC99;
+    box-shadow: 0 0 10px 2px #2A464D;
     /* #000 30%*/
     padding: 20px;
 }
 
 .button:hover {
-    background-color: #f2eee5;
+    background-color: #536165;
 }
 
 #bubbles .bg {
     position: absolute;
     height: 160px;
     width: 160px;
-    background-color: #FFFBF1;
+    background-color: #637276;
     padding: 50px 10px;
     border-radius: 50%;
-    box-shadow: inset 0 0 15px 3px #899A93;
-
-
+    border: 3px solid #2A6372;
+    box-shadow: 0 0 10px 2px #2A464D;
 }
 
 #bubbles p {
