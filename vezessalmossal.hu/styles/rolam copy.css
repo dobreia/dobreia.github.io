@@ -1,16 +1,3 @@
-body {
-    background-color: #385D67;
-}
-
-.navbar {
-    background-color: #000;
-    color: #4A9BB1;
-}
-
-.nav-link {
-    text-shadow: -1px 1px 20px #b8b8b8
-}
-
 #bg {
     position: absolute;
     z-index: -100;
@@ -22,17 +9,15 @@ body {
     margin-bottom: 100px;
     width: 1000px;
     padding: 20px;
-    border: 3px solid #13404C;
+    border: 3px solid black;
     border-radius: 30px;
-    background-color: #637276;
-    box-shadow: 0 0 10px 0 #2A464D;
-
+    background-color: #fff;
 }
 
 p {
     margin: 0;
     display: block;
-    color: white;
+    color: #2A6372;
     font-size: 20px;
     text-align: justify;
 }
@@ -42,15 +27,11 @@ p {
     margin-left: 30px;
     border-radius: 10px;
     float: right;
-    box-shadow: 0 0 10px 2px #2A464D;
-
 }
 
 p span {
     font-size: 24px;
 }
-
-
 
 @media (max-width: 992px) {
     #img {
