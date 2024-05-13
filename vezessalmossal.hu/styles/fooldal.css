@@ -98,12 +98,12 @@ main a {
 
 #_4 {
     right: 265px;
-    bottom: 70px;
+    top: 465px;
 }
 
 #_5 {
     right: 80px;
-    bottom: 30px;
+    top: 500px;
 
 }
 
@@ -138,8 +138,7 @@ footer img {
     justify-content: space-between;
 }
 
-#credit {
-}
+#credit {}
 
 @media (max-width: 1400px) {
     .button {
