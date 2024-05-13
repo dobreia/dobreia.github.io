@@ -254,6 +254,10 @@ footer img {
         top: 710px;
         right: 66%;
     }
+
+    footer {
+        margin-top: 500px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -351,5 +355,9 @@ footer img {
         top: 490px;
         right: 71%;
         padding: 25px 0 0 5px !important;
+    }
+
+    footer {
+        margin-top: 300px;
     }
 }
