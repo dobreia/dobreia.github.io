@@ -8,18 +8,22 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Urbanist">
     <link rel="stylesheet" href="styles/style.css">
+    <link id="theme" rel="stylesheet" href="styles/velemenyek.css">
     <title>Vélemények - Vezess Álmossal</title>
 </head>
 
-
-<body>
+<body id="rolam">
     <nav class="navbar navbar-expand-lg">
         <div class="container-lg">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <a class="navbar-brand" href="index.html"><img class="logo" src="assets/logo.png" alt=""></a>
+            <div class="d-flex align-items-center">
+                <img id=theme-icon class="theme big" src="assets/darkmode-icon.svg" alt="Theme Icon">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <img class="navbar-toggler-icon" src="assets/menu-open.svg" alt="">
+                </button>
+
+            </div>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -34,11 +38,55 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="velemenyek.html">Vélemények</a>
                     </li>
-
                 </ul>
             </div>
+            <img id=theme-icon class="theme small" src="assets/darkmode-icon.svg" alt="Theme Icon">
+
         </div>
     </nav>
+    <main>
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-6 bg">
+                    <p>"Álmos gyakorlatias, vezetéstechnikai tanácsok mellett, az autó működésének mechanikai elméletét
+                        is
+                        érthetően elmagyarázza azok számára, akik nem elégednek meg az "azért, mert csak" jellegű
+                        válaszokkal. Barátságos és közvetlen, a vezetés során nyugodt légkört képes teremteni, bátorít,
+                        kiemeli az erősségeket, de azt is képes építő kritikaként megfogalmazni, amit jobban, ügyesebben
+                        lehetne csinálni."
+                    </p>
+                </div>
+                <div class="col-6 bg">
+                    <p>"Álmos érthetően és tök jól magyaráz, nagyon gyakorlatias volt az első tanóra. Kicsit izgultam,
+                        hogy extra béna leszek, de végül jól alakult a dolog, biztatott és segített. Elmondta,
+                        megmutatta, mit hogyan kellene alkalmazni. Sok tanulni valóm van még, de felspanolt a mai nap,
+                        hogy Álmos segítségével nekem is sikerül megszerezni a rutint. Szóval nagyon ajánlom
+                        mindenkinek! "</p>
+                </div>
+            </div>
+            <div class="row sor" id="last">
+                <div class="col-6 bg">
+                    <p>"Ha hiányosan tanított meg az oktatód, hiába kérted, hogy valamit mutasson meg neked, keresd
+                        bizalommal Álmost. Nyugodt, nem kiabál, elmondja, mit hibáztál, megmutatja, hogy kellett volna -
+                        nincs gyomorgörcs. Ha nem vagy biztos magadban, vagy nem tanítottak meg rendesen, nyugodt
+                        szívvel ajánlom neked Álmost. "</p>
+                </div>
+                <div class="col-6 bg">
+                    <p>"Kerestem egy vezetés oktatót, és szerencsére rátaláltam Álmos személyében.
+                        Normálisan és
+                        hozzáértően magyaráz, bármit kérdeztem, érthető választ kaptam. Mindenkinek szívből ajánlom."
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <script src="scripts/theme.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
