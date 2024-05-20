@@ -31,6 +31,8 @@ function getDarkTheme() {
             return 'styles/a_kepzesrol_dark.css';
         case 'styles/az_autom.css':
             return 'styles/az_autom_dark.css';
+        case 'styles/velemenyek.css':
+            return 'styles/velemenyek_dark.css';
         default:
             return currentTheme;
     }
