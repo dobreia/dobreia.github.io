@@ -86,7 +86,7 @@ p {
 }
 
 .price {
-    margin-top: 50px;
+    margin-left: 50px !important;
 }
 
 .price .old-price {
@@ -94,9 +94,6 @@ p {
 }
 .price .new-price {
     font-weight: bold;
-}
-.price h3 {
-    margin-left: 30px
 }
 
 @media (max-width: 1200px) {
