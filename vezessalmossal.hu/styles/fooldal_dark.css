@@ -153,6 +153,21 @@ footer img {
     justify-content: space-between;
 }
 
+.contact-help {
+    position: absolute;
+    bottom: 20px;
+}
+
+.contact-help p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.down-arrow {
+    width: 32px;
+    height: 32px;
+}
+
 #credit {
     margin-top: 10px;
 }
@@ -257,6 +272,10 @@ footer img {
 
     footer {
         margin-top: 500px;
+    }
+
+    .contact-help {
+        display: none;
     }
 }
 

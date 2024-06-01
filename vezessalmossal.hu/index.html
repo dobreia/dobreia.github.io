@@ -109,6 +109,18 @@
                 contactHelp.style.visibility = 'visible';
             }
         });
+
+        var theme = document.querySelector('#theme');
+        var downArrow = document.querySelector('.down-arrow');
+        function updateDownArrow() {
+            var currentTheme = theme.getAttribute('href');
+            if (currentTheme == 'styles/fooldal_dark.css') {
+                downArrow.src = 'assets/down-arrow-white.svg';
+            } else {
+                downArrow.src = 'assets/down-arrow.svg';
+            }
+        }
+        updateDownArrow();
     </script>
 
 

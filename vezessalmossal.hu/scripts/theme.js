@@ -2,6 +2,7 @@
 var theme = document.querySelector('#theme');
 var themeButtons = document.querySelectorAll('.theme');
 var currentTheme = localStorage.getItem('theme');
+var downArrow = document.querySelector('.down-arrow');
 var isDarkMode = false; // Alapértelmezett érték: világos mód
 
 // Függvény a téma beállításához
@@ -9,6 +10,7 @@ function setTheme(themeName) {
     theme.setAttribute('href', themeName);
     updateThemeButtons();
     localStorage.setItem('theme', themeName);
+    updateDownArrow();
 }
 
 // Függvény a gombok frissítéséhez
@@ -44,6 +46,12 @@ function getLightTheme() {
     return currentTheme.replace('_dark', '');
 }
 
+// Függvény az alsó nyíl frissítéséhez
+function updateDownArrow() {
+    var downArrowSrc = theme.getAttribute('href').includes('dark') ? 'assets/down-arrow-white.svg' : 'assets/down-arrow.svg';
+    downArrow.src = downArrowSrc;
+}
+
 // Kattintás eseményfigyelő hozzáadása a gombokhoz
 themeButtons.forEach(function (themeButton) {
     themeButton.addEventListener('click', toggleDarkMode);
@@ -52,15 +60,12 @@ themeButtons.forEach(function (themeButton) {
 // A téma beállítása az oldal betöltésekor
 document.addEventListener("DOMContentLoaded", function (event) {
     var savedTheme = localStorage.getItem('theme');
-    if (!savedTheme) {
-        isDarkMode = false; // Alapértelmezett világos mód
-    } else {
+    if (savedTheme) {
         isDarkMode = savedTheme.includes('dark');
     }
     var themeName = isDarkMode ? getDarkTheme() : getLightTheme();
     setTheme(themeName);
 });
-
 
 // Függvény a sötét móddal való váltáshoz
 function toggleDarkMode() {
