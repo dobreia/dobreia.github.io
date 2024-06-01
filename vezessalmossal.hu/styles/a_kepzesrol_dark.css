@@ -103,8 +103,8 @@ h1 {
     font-weight: bold;
 }
 
-p {
-    margin: 0;
+.price {
+    margin-left: 50px !important;
 }
 
 
