@@ -10,7 +10,10 @@ body {
 .nav-link {
     text-shadow: -1px 1px 20px #b8b8b8
 }
-
+h1{
+    color: white;
+    
+}
 .card-title {
     font-size: 18px;
     border: none;

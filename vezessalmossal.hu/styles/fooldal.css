@@ -138,6 +138,18 @@ footer img {
     justify-content: space-between;
 }
 
+.contact-help{
+    margin-top: 30px;
+}
+.contact-help p{
+    font-size: 20px;
+    margin: 0;
+}
+.down-arrow{
+    width: 32px;
+    height: 32px;
+}
+
 
 @media (max-width: 1400px) {
     .button {
