@@ -89,10 +89,12 @@ p {
     margin-top: 50px;
 }
 
-.price span {
+.price .old-price {
     text-decoration: line-through;
 }
-
+.price .new-price {
+    font-weight: bold;
+}
 .price h3 {
     margin-left: 30px
 }
