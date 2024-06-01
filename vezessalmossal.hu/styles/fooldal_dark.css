@@ -57,6 +57,11 @@ main a {
     padding: 20px;
 }
 
+.button h2 {
+    width: auto !important;
+    text-align: center;
+}
+
 .button:hover {
     background-color: #536165;
 }
