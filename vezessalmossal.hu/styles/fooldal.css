@@ -138,17 +138,23 @@ footer img {
     justify-content: space-between;
 }
 
-.contact-help{
-   position: absolute;
-   bottom: 20px;
+.contact-help {
+    position: absolute;
+    bottom: 20px;
 }
-.contact-help p{
+
+.contact-help p {
     font-size: 20px;
     margin: 0;
 }
-.down-arrow{
+
+.down-arrow {
     width: 32px;
     height: 32px;
+}
+
+.phone-link {
+    display: none;
 }
 
 
@@ -252,7 +258,8 @@ footer img {
     footer {
         margin-top: 500px;
     }
-    .contact-help{
+
+    .contact-help {
         display: none;
     }
 }
@@ -356,5 +363,13 @@ footer img {
 
     footer {
         margin-top: 300px;
+    }
+
+    .phone-link {
+        display: inline;
+    }
+
+    .phone-number {
+        display: none;
     }
 }
