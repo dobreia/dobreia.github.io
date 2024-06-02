@@ -51,6 +51,7 @@ main a {
     padding: 18px 20px;
     width: 460px;
     background-color: #637276;
+    border: 3px solid #2A6372;
     border-radius: 50px;
     box-shadow: 0 0 10px 2px #2A464D;
     /* #000 30%*/
@@ -116,7 +117,8 @@ main a {
 
 #_4 {
     right: 265px;
-    bottom: 70px;
+    top: 465px;
+    padding: 35px 10px !important;
 }
 
 #_5 {
@@ -175,6 +177,10 @@ footer img {
 
 #credit {
     margin-top: 10px;
+}
+
+.phone-link {
+    display: none;
 }
 
 @media (max-width: 1400px) {
@@ -372,7 +378,7 @@ footer img {
     #_4 {
         top: 370px;
         right: 64%;
-        padding: 25px 0 0 5px !important;
+        padding: 15px 0 0 5px !important;
     }
 
     #_5 {
@@ -383,5 +389,13 @@ footer img {
 
     footer {
         margin-top: 300px;
+    }
+
+    .phone-link {
+        display: inline;
+    }
+
+    .phone-number {
+        display: none;
     }
 }

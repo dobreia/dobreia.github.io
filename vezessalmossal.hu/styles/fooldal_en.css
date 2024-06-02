@@ -341,13 +341,17 @@ footer img {
     #_1 {
         top: 490px;
         left: 71%;
-        padding: 20px 0 0 5px !important;
+        padding: 15px 0 0 5px !important;
     }
 
     #_2 {
         top: 370px;
         left: 64%;
         padding: 15px 0 0 5px !important;
+    }
+
+    #_2 p {
+        font-size: 12px;
     }
 
     #_3 {
@@ -364,7 +368,7 @@ footer img {
     #_5 {
         top: 490px;
         right: 71%;
-        padding: 25px 0 0 5px !important;
+        padding: 20px 0 0 5px !important;
     }
 
     footer {
@@ -379,4 +383,3 @@ footer img {
         display: none;
     }
 }
-

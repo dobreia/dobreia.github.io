@@ -9,6 +9,7 @@ function setTheme(themeName) {
     theme.setAttribute('href', themeName);
     updateThemeButtons();
     localStorage.setItem('theme', themeName);
+    updateDownArrow();
 }
 
 // Függvény a gombok frissítéséhez

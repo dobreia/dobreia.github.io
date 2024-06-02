@@ -3,12 +3,14 @@ var theme = document.querySelector('#theme');
 var themeButtons = document.querySelectorAll('.theme');
 var currentTheme = localStorage.getItem('theme');
 var isDarkMode = false; // Alapértelmezett érték: világos mód
+var downArrow = document.querySelector('.down-arrow');
 
 // Függvény a téma beállításához
 function setTheme(themeName) {
     theme.setAttribute('href', themeName);
     updateThemeButtons();
     localStorage.setItem('theme', themeName);
+    updateDownArrow();
 }
 
 // Függvény a gombok frissítéséhez
@@ -24,8 +26,8 @@ function getDarkTheme() {
     var currentTheme = document.getElementById('theme').getAttribute('href');
     var basePath = currentTheme.includes('../') ? '../styles/' : 'styles/';
     switch (currentTheme) {
-        case basePath + 'fooldal.css':
-            return basePath + 'fooldal_dark.css';
+        case basePath + 'fooldal_en.css':
+            return basePath + 'fooldal_en_dark.css';
         case basePath + 'rolam.css':
             return basePath + 'rolam_dark.css';
         case basePath + 'a_kepzesrol.css':
@@ -49,6 +51,7 @@ function getLightTheme() {
 themeButtons.forEach(function (themeButton) {
     themeButton.addEventListener('click', toggleDarkMode);
 });
+
 
 // A téma beállítása az oldal betöltésekor
 document.addEventListener("DOMContentLoaded", function (event) {
