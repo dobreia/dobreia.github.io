@@ -71,7 +71,7 @@ a {
 .theme {
     width: 40px;
     cursor: pointer;
-
+    margin-right: 5px;
 }
 
 .theme:hover {
