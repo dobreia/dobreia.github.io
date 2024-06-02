@@ -92,6 +92,7 @@ p {
 .price .old-price {
     text-decoration: line-through;
 }
+
 .price .new-price {
     font-weight: bold;
 }
