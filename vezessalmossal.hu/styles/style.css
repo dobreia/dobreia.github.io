@@ -86,9 +86,12 @@ a {
         justify-content: end;
     }
 
-    .theme.big {
+    .theme.big,
+    .language.big {
         display: none;
     }
+
+
 
 
 }
@@ -98,9 +101,28 @@ a {
         margin-right: 5px;
     }
 
-    .theme.small {
+    .theme.small,
+    .language.small {
         display: none;
     }
 
+    .language {
+        margin-right: 5px;
+    }
 
+
+}
+
+@media (max-width:415px) {
+
+    #theme-icon,
+    .navbar-toggler-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .language {
+        margin-right: 3px;
+        font-size: 16px;
+    }
 }
