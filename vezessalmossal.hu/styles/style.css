@@ -11,6 +11,20 @@ a {
     text-decoration: none;
 }
 
+.navbar-background {
+    height: 50px;
+    /* Állítsa be a kívánt magasságot */
+    background-color: #AFB9BB;
+    /* Ugyanaz a szín, mint a navbar */
+}
+
+.footer-background {
+    height: 100px;
+    /* Állítsa be a kívánt magasságot */
+    background-color: #637276;
+    /* Ugyanaz a szín, mint a footer */
+}
+
 .language {
     color: #2A6372;
     font-size: 20px;
