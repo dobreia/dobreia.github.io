@@ -2,7 +2,6 @@
 var theme = document.querySelector('#theme');
 var themeButtons = document.querySelectorAll('.theme');
 var currentTheme = localStorage.getItem('theme');
-var downArrow = document.querySelector('.down-arrow');
 var isDarkMode = false; // Alapértelmezett érték: világos mód
 
 // Függvény a téma beállításához
@@ -10,7 +9,6 @@ function setTheme(themeName) {
     theme.setAttribute('href', themeName);
     updateThemeButtons();
     localStorage.setItem('theme', themeName);
-    updateDownArrow();
 }
 
 // Függvény a gombok frissítéséhez
@@ -44,12 +42,6 @@ function getDarkTheme() {
 function getLightTheme() {
     var currentTheme = theme.getAttribute('href');
     return currentTheme.replace('_dark', '');
-}
-
-// Függvény az alsó nyíl frissítéséhez
-function updateDownArrow() {
-    var downArrowSrc = theme.getAttribute('href').includes('dark') ? 'assets/down-arrow-white.svg' : 'assets/down-arrow.svg';
-    downArrow.src = downArrowSrc;
 }
 
 // Kattintás eseményfigyelő hozzáadása a gombokhoz
