@@ -17,7 +17,7 @@ p {
     text-align: justify;
 }
 
-ul {
+.container ul {
     margin-top: 10px;
     margin-left: 30px;
 }
@@ -45,10 +45,6 @@ p span {
 
     }
 
-    .mask {
-        width: 400px;
-        height: 300px;
-    }
 }
 
 @media (max-width: 768px) {
