@@ -2,7 +2,21 @@ body {
     background-color: #FFF5DB;
     font-family: Urbanist, sans-serif;
 }
+p{
+    margin: 0;
+}
 
+a{
+    text-decoration: none;
+}
+
+.language{
+    color: #2A6372;
+}
+
+.language-active{
+    font-weight: bold;
+}
 .navbar {
     background-color: #AFB9BB;
 }
