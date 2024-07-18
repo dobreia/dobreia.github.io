@@ -2,6 +2,9 @@ body {
     background-color: #171717 !important;
     color: #C8A35D !important;
 }
+a{
+    color: #C8A35D;
+}
 
 h1 {
     font-family: Cinzel;
