@@ -89,7 +89,14 @@ h3 {
     margin-right: auto;
     width: 1100px;
 }
-
+#downloadMenu{
+    display: block;
+    margin-top: 10px;
+    font-family: Cormorant, sans-serif;
+    color: #C8A35D;
+    text-align: center;
+    font-size: 30px;
+}
 
 #contact {
     margin-bottom: 50px;
