@@ -12,19 +12,6 @@ h3 {
     font-family: Cormorant;
 }
 
-#temp_opening img {
-    display: block;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px;
-    border-radius: 20px;
-    border: #C8A35D 2px solid;
-    width: 80%;
-    box-shadow: 0 0 20px 2px #c8a25d71;
-    margin-bottom: 50px;
-}
-
 #main-text {
     /*margin-top: 200px;*/
     margin-top: 150px;
@@ -92,38 +79,14 @@ h3 {
     font-size: 28px;
 }
 
-.opening-weekend {
-    background-color: #C8A35D;
-    margin-top: 100px;
-    width: 755px;
-    height: 537px;
-    border: 1px solid #C8A35D;
-    border-radius: 20px;
+#multiCarousel {
+    margin-top: 50px;
+}
+.carousel-control-next {
+    width: 5%;
+    /* Adjust width as needed */
 }
 
-.opening-weekend h2,
-.opening-weekend h3 {
-    font-weight: bold;
-    color: #000;
-    text-align: center;
-}
-
-.opening-weekend h2 {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-family: Cinzel, sans-serif;
-}
-
-.opening-weekend h3 {
-    font-size: 29px;
-    margin-top: -5px;
-}
-
-.opening-weekend img {
-    margin-top: 10px;
-    width: 100%;
-    border-radius: 10px;
-}
 
 #contact {
     margin-bottom: 50px;
