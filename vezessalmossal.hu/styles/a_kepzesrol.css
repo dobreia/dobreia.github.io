@@ -87,6 +87,7 @@ p {
 
 .price {
     margin-left: 50px !important;
+    font-weight: bold;
 }
 
 .price .old-price {
