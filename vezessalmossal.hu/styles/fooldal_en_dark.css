@@ -161,7 +161,7 @@ footer img {
 
 .contact-help {
     position: absolute;
-    bottom: 20px;
+    top: 650px;
 }
 
 .contact-help p {
@@ -365,7 +365,8 @@ footer img {
         left: 64%;
         padding: 15px 0 0 3px !important;
     }
-    #_2 p{
+
+    #_2 p {
         font-size: 12px;
     }
 
@@ -396,5 +397,18 @@ footer img {
 
     .phone-number {
         display: none;
+    }
+}
+
+@media (min-height: 754px) {
+    .contact-help {
+        display: none;
+    }
+}
+
+@media(min-height: 804px) {
+    footer {
+        position: fixed;
+        bottom: 0;
     }
 }

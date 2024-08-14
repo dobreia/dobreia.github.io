@@ -145,7 +145,7 @@ footer img {
 
 .contact-help {
     position: absolute;
-    bottom: 20px;
+    top: 650px;
 }
 
 .contact-help p {
@@ -381,5 +381,18 @@ footer img {
 
     .phone-number {
         display: none;
+    }
+}
+
+@media (min-height: 754px) {
+    .contact-help {
+        display: none;
+    }
+}
+
+@media(min-height: 804px) {
+    footer {
+        position: fixed;
+        bottom: 0;
     }
 }

@@ -378,3 +378,16 @@ footer img {
         display: none;
     }
 }
+
+@media (min-height: 754px) {
+    .contact-help {
+        display: none;
+    }
+}
+
+@media(min-height: 804px) {
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+}
