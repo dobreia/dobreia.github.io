@@ -1,0 +1,6 @@
+A képzésről oldalon a legfelső szöveget szélességre felére behúzni, mellé az árakat ugyanolyan stílusban mint a szöveg.
+képzés anyagát összébb húzni.
+
+az autom angol oldalon felsorolások közé nagyobb térköz
+
+vélemények oldalon beágyazni a fb postot hogy látszódjanak a kommentek
