@@ -5,19 +5,19 @@
 
 
 .container {
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 35px;
     width: 1000px;
     padding: 20px;
-    border: 3px solid #13404C;
-    border-radius: 30px;
-    background-color: #FFFBF1;
+    background-color: #F2F3F5;
+    box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    border: 2px solid #C7C8CA;
 }
 
 p {
     margin: 0;
     display: block;
-    color: #2A6372;
+    color: #000;
     font-size: 20px;
     text-align: justify;
 
@@ -33,8 +33,17 @@ p {
 p span {
     font-size: 24px;
 }
+@media(max-width: 1200px){
+    .container{
+        margin-top: 20px;
+    }
+}
 
 @media (max-width: 992px) {
+    .container{
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
     #img {
         width: 370px;
         margin-left: 20px;
@@ -73,6 +82,8 @@ p span {
 
 @media(max-width: 412px) {
     .container {
+        margin-top: 15px;
+        margin-bottom: 15px;
         width: 95%;
     }
 }
