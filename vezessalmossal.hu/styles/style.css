@@ -81,11 +81,6 @@ a {
 }
 
 
-@media(min-width: 1600px){
-    .nav-link, .language{
-        font-size:25px
-    }
-}
 @media (min-width:992px) {
     #navbarNav {
         display: flex;

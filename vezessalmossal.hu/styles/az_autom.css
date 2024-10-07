@@ -13,7 +13,7 @@
 p {
     margin: 0;
     display: block;
-    color: #2A6372;
+    color: #000;
     font-size: 20px;
     text-align: justify;
 }
@@ -26,7 +26,7 @@ ul{
     margin-bottom: 5px;
 }
 li {
-    color: #2A6372;
+    color: #000;
     font-size: 20px;
 }
 
@@ -43,15 +43,7 @@ p span {
 
 @media(min-width:1600px){
     .container{
-        width: 75%;
         margin-top: 75px;
-        padding-bottom: 45px;
-    }
-    p, li{
-        font-size:25px;
-    }
-    #img{
-        width: 650px;
     }
 }
 

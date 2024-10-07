@@ -66,20 +66,9 @@ p span {
     text-decoration: line-through;
 }
 
-@media(min-width:1600px) {
-    .container {
-        width: 75%;
+@media(min-width:1600px){
+    .container{
         margin-top: 75px;
-        padding-bottom: 45px;
-    }
-
-    p,
-    li {
-        font-size: 25px;
-    }
-
-    #img {
-        width: 650px;
     }
 }
 
