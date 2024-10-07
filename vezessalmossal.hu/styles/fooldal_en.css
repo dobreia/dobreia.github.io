@@ -61,7 +61,6 @@ main a {
     border-radius: 50%;
     box-shadow: inset 0 0 15px 3px #899A93;
 
-
 }
 
 #bubbles p {
@@ -69,18 +68,20 @@ main a {
     font-size: 20px;
     text-align: center;
     vertical-align: bottom;
-
 }
 
 
 #bubbles #main {
     position: absolute;
-    font-size: 30px;
     top: 246px;
     right: 84px;
     height: 250px;
     width: 250px;
-    padding: 100px 25px;
+    padding: 80px 25px;
+}
+
+#bubbles #main p{
+    font-size: 30px;
 }
 
 #_1 {
@@ -91,7 +92,7 @@ main a {
 
 
 #_2 {
-    padding: 35px 10px !important;
+    padding: 45px 10px !important;
     top: 120px;
     right: 265px;
 }
@@ -104,12 +105,13 @@ main a {
 #_4 {
     right: 265px;
     top: 465px;
+    padding: 45px 10px !important;
 }
 
 #_5 {
     right: 80px;
     top: 500px;
-
+    padding: 35px 10px !important;
 }
 
 footer a,
