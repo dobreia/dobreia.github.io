@@ -119,7 +119,6 @@ main a {
 #_4 {
     right: 265px;
     top: 465px;
-    padding: 35px 10px !important;
 }
 
 #_5 {
@@ -357,32 +356,38 @@ footer img {
     #_1 {
         top: 490px;
         left: 71%;
-        padding: 20px 0 0 5px !important;
+        padding: 20px 0 0 3px !important;
     }
 
     #_2 {
         top: 370px;
         left: 64%;
-        padding: 15px 0 0 5px !important;
+        padding: 12px 0 0 3px !important;
+    }
+    #_2 p{
+        font-size: 12px !important;
     }
 
     #_3 {
-        padding: 20px 0 0 5px !important;
+        padding: 20px 0 0 2px !important;
         top: 310px;
     }
 
     #_4 {
         top: 370px;
         right: 64%;
-        padding: 15px 0 0 5px !important;
+        padding: 22px 0 0 3px !important;
     }
 
     #_5 {
         top: 490px;
         right: 71%;
-        padding: 25px 0 0 5px !important;
+        padding: 15px 0 0 2px !important;
     }
 
+    #_5 p{
+        font-size: 12px;
+    }
     footer {
         margin-top: 300px;
     }

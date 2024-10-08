@@ -342,34 +342,37 @@ footer img {
     #_1 {
         top: 490px;
         left: 71%;
-        padding: 15px 0 0 5px !important;
+        padding: 17px 0 0 5px !important;
     }
 
     #_2 {
         top: 370px;
         left: 64%;
-        padding: 15px 0 0 5px !important;
+        padding: 18px 0 0 5px !important;
     }
 
     #_2 p {
-        font-size: 12px;
+        font-size: 12px !important;
     }
 
     #_3 {
-        padding: 20px 0 0 5px !important;
+        padding: 25px 0 0 5px !important;
         top: 310px;
     }
 
     #_4 {
         top: 370px;
         right: 64%;
-        padding: 25px 0 0 5px !important;
+        padding: 23px 0 0 5px !important;
     }
 
     #_5 {
         top: 490px;
         right: 71%;
-        padding: 20px 0 0 5px !important;
+        padding: 19px 0 0 5px !important;
+    }
+    #_5 p {
+        font-size: 11px !important;
     }
 
     footer {
