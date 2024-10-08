@@ -18,15 +18,14 @@ body {
 
 
 .container {
-    margin-top: 50px;
-    margin-bottom: 100px;
     width: 1000px;
+    margin-top: 50px;
     padding: 20px;
-    border-radius: 30px;
-    border: 3px solid #13404C;
     background-color: #637276;
+    border-radius: 20px;
+    border: 3px solid #13404C;
     box-shadow: 0 0 10px 0 #2A464D;
-
+    overflow: hidden;
 }
 
 p {
@@ -44,16 +43,21 @@ p {
     border-radius: 10px;
     float: right;
     box-shadow: 0 0 10px 2px #2A464D;
-
 }
 
 p span {
     font-size: 24px;
 }
 
-@media(min-width:1600px){
-    .container{
+@media(min-width:1600px) {
+    .container {
         margin-top: 75px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        margin-bottom: 50px;
     }
 }
 
@@ -62,11 +66,6 @@ p span {
         width: 370px;
         margin-left: 20px;
 
-    }
-
-    .mask {
-        width: 400px;
-        height: 300px;
     }
 }
 
@@ -96,6 +95,8 @@ p span {
 
 @media(max-width: 412px) {
     .container {
+        margin-top: 15px;
+        margin-bottom: 15px;
         width: 95%;
     }
 }

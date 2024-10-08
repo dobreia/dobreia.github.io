@@ -43,7 +43,7 @@ a {
 
 .active {
     background-color: #2A6372;
-    color: #FFF5DB !important;
+    color: #fff !important;
     border-radius: 50px;
     transition: all ease 1ms;
 }
@@ -60,7 +60,7 @@ a {
 
 .nav-link:hover {
     background-color: #2A6372;
-    color: #FFF5DB;
+    color: #fff;
     border-radius: 50px;
     transition: all ease 0.5ms;
 }
