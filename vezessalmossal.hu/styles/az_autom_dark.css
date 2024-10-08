@@ -66,8 +66,8 @@ p span {
     text-decoration: line-through;
 }
 
-@media(min-width:1600px){
-    .container{
+@media(min-width:1600px) {
+    .container {
         margin-top: 75px;
     }
 }
@@ -101,8 +101,16 @@ p span {
     }
 }
 
+@media (max-width: 536px) {
+    .container ul {
+        margin-left: 13px;
+    }
+}
+
 @media(max-width: 412px) {
     .container {
+        margin-top: 15px;
+        margin-bottom: 15px;
         width: 95%;
     }
 }
