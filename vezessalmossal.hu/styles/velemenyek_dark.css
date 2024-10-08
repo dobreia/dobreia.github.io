@@ -1,3 +1,8 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
 body {
     background-color: #385D67;
 }
@@ -23,7 +28,7 @@ h1 {
 .card {
     margin-top: 10px;
     margin-bottom: 20px;
-    padding: 12px;
+    padding: 10px;
     background-color: #F2F3F5;
     border-radius: 12px;
     border: 3px solid #13404C;
@@ -31,10 +36,12 @@ h1 {
     box-shadow: 0 0 10px 0 #2A464D;
     color: white;
 }
-p{
+
+p {
     filter: drop-shadow(0 0 1px black);
-    
+
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
