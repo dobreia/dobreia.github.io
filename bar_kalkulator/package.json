@@ -1,5 +1,5 @@
 {
-  "name": "bar_elszamolas",
+  "name": "bar_kalkulator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,5 +40,5 @@
   "devDependencies": {
     "gh-pages": "^6.2.0"
   },
-  "homepage": "https://felhasznaloneved.github.io/projekt-nev"
+  "homepage": "https://dobreia.github.io/bar_kalkulator"
 }
