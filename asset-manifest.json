@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/projekt-nev/static/css/main.f855e6bc.css",
-    "main.js": "/projekt-nev/static/js/main.14e606c9.js",
-    "static/js/453.9745858f.chunk.js": "/projekt-nev/static/js/453.9745858f.chunk.js",
-    "static/media/logo.svg": "/projekt-nev/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/projekt-nev/index.html",
-    "main.f855e6bc.css.map": "/projekt-nev/static/css/main.f855e6bc.css.map",
-    "main.14e606c9.js.map": "/projekt-nev/static/js/main.14e606c9.js.map",
-    "453.9745858f.chunk.js.map": "/projekt-nev/static/js/453.9745858f.chunk.js.map"
+    "main.css": "/bar_kalkulator/static/css/main.f855e6bc.css",
+    "main.js": "/bar_kalkulator/static/js/main.14b699cc.js",
+    "static/js/453.c2213c17.chunk.js": "/bar_kalkulator/static/js/453.c2213c17.chunk.js",
+    "static/media/logo.svg": "/bar_kalkulator/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/bar_kalkulator/index.html",
+    "main.f855e6bc.css.map": "/bar_kalkulator/static/css/main.f855e6bc.css.map",
+    "main.14b699cc.js.map": "/bar_kalkulator/static/js/main.14b699cc.js.map",
+    "453.c2213c17.chunk.js.map": "/bar_kalkulator/static/js/453.c2213c17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.14e606c9.js"
+    "static/js/main.14b699cc.js"
   ]
 }
